@@ -1,0 +1,47 @@
+{
+   "Groups": [
+      {
+         "Name": "main",
+         "DisplayName": "Customization",
+         "Elements": [
+
+            {
+                "Name": "IncludeDir0",
+                "DisplayName": "Anim Sets",
+                "Description": [
+                    "Changes Whether He is Using Impact Anims or not."
+                ],
+                "Type": "ModelTypesNum",
+                "MinValue": null,
+                "MaxValue": null,
+                "DefaultValue": "Regular Anims"
+            },
+         ]
+      }
+   ],
+   
+   "Enums": {
+
+      "ModelTypesNum": 
+	  [
+
+         {
+            "DisplayName": "Regular Anims",
+            "Value": "default",
+            "Description": [
+               "Uses The Default Anims.",
+            ]
+         },
+
+         {
+            "DisplayName": "Impact Anims",
+            "Value": "impact",
+            "Description": [
+               "Uses the Impact Anims.",
+            ]
+         },	 
+
+      ],
+	},  
+   "IniFile": "mod.ini"
+}
