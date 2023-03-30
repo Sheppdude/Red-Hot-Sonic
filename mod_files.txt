@@ -1,1 +1,9 @@
 add mod.ini
+add default/raw/character/sonic.pac
+add impact/raw/character/sonic.pac
+add main/raw/character/soniccyber.pac
+add main/raw/character/supersonic.pac
+add mod.ini
+add mod_files.txt
+add mod_version.ini
+add options.json
